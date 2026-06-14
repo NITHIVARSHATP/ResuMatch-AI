@@ -1,0 +1,224 @@
+/* Import Premium Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+/* Global Font Override */
+html, body, [class*="css"] {
+    font-family: 'Outfit', sans-serif;
+}
+
+/* Glassmorphism Card style */
+.glass-card {
+    background: rgba(30, 41, 59, 0.4);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.glass-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(99, 102, 241, 0.4);
+    box-shadow: 0 12px 40px 0 rgba(99, 102, 241, 0.15);
+}
+
+/* Text Gradients */
+.text-gradient {
+    background: linear-gradient(135deg, #818cf8 0%, #c084fc 50%, #f472b6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+.title-gradient {
+    font-size: 2.8rem;
+    background: linear-gradient(90deg, #6366f1 0%, #a855f7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1rem;
+}
+
+/* Pill Badges for matching score */
+.score-badge {
+    display: inline-block;
+    padding: 6px 14px;
+    font-weight: 600;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.badge-high {
+    background-color: rgba(16, 185, 129, 0.15);
+    color: #10b981;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.badge-medium {
+    background-color: rgba(245, 158, 11, 0.15);
+    color: #f59e0b;
+    border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+.badge-low {
+    background-color: rgba(239, 68, 68, 0.15);
+    color: #ef4444;
+    border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+/* Skills Pill badges */
+.skill-badge {
+    display: inline-block;
+    background-color: rgba(99, 102, 241, 0.1);
+    color: #a5b4fc;
+    border: 1px solid rgba(99, 102, 241, 0.2);
+    padding: 4px 10px;
+    margin: 4px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.skill-badge:hover {
+    background-color: rgba(99, 102, 241, 0.2);
+    border-color: rgba(99, 102, 241, 0.4);
+    color: #ffffff;
+}
+
+/* Metrics Row styling */
+.metric-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.metric-item {
+    flex: 1;
+    background: rgba(30, 41, 59, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 16px;
+    text-align: center;
+}
+
+.metric-val {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 4px;
+}
+
+.metric-lbl {
+    font-size: 0.85rem;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* Leaderboard custom layout */
+.leaderboard-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 18px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.leaderboard-row:last-child {
+    border-bottom: none;
+}
+
+.leaderboard-rank {
+    font-weight: 700;
+    color: #818cf8;
+    width: 30px;
+}
+
+.leaderboard-name {
+    flex-grow: 1;
+    font-weight: 500;
+    color: #e2e8f0;
+}
+
+/* Custom list items for strengths/gaps */
+.fit-list-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.fit-list-icon {
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+.strength-icon {
+    color: #10b981;
+}
+
+.gap-icon {
+    color: #ef4444;
+}
+
+/* Work Experience Card layout */
+.experience-card {
+    border-left: 2px solid #6366f1;
+    padding-left: 15px;
+    margin-bottom: 18px;
+}
+
+.experience-title {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #f1f5f9;
+    margin-bottom: 2px;
+}
+
+.experience-company {
+    font-size: 0.9rem;
+    color: #818cf8;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.experience-duration {
+    font-size: 0.8rem;
+    color: #94a3b8;
+    margin-bottom: 8px;
+}
+
+/* Q&A chat layout */
+.chat-container {
+    max-height: 400px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+.chat-bubble {
+    padding: 14px 18px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    max-width: 85%;
+    line-height: 1.5;
+}
+
+.chat-user {
+    background-color: rgba(99, 102, 241, 0.15);
+    border: 1px solid rgba(99, 102, 241, 0.3);
+    margin-left: auto;
+    color: #e0e7ff;
+}
+
+.chat-ai {
+    background-color: rgba(30, 41, 59, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    margin-right: auto;
+    color: #f1f5f9;
+}

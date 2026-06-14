@@ -1,0 +1,26 @@
+2026-06-14 12:48:26,819 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 12:48:26,822 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 12:48:26,823 [INFO] resume_screening - database.py:48 - Saved raw resume file: test_data\resumes\jane_doe.txt
+2026-06-14 12:48:26,831 [INFO] resume_screening - database.py:64 - Candidate 'Jane Doe' (jane_doe.txt) successfully saved to database.
+2026-06-14 12:48:26,835 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 12:48:26,837 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 12:48:26,837 [INFO] resume_screening - database.py:108 - Deleted raw resume file: test_data\resumes\jane_doe.txt
+2026-06-14 12:48:26,846 [INFO] resume_screening - database.py:118 - Candidate file 'jane_doe.txt' removed from SQLite database.
+2026-06-14 12:48:26,852 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 12:48:26,869 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 12:48:26,892 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 12:48:26,898 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 12:48:26,898 [INFO] resume_screening - database.py:48 - Saved raw resume file: test_data\resumes\test_resume.txt
+2026-06-14 12:48:26,911 [INFO] resume_screening - database.py:64 - Candidate 'Jane Doe' (test_resume.txt) successfully saved to database.
+2026-06-14 12:48:26,930 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 12:48:26,937 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 12:48:26,954 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 12:48:26,976 [ERROR] resume_screening - parser.py:70 - docx2txt extraction failed: File is not a zip file
+2026-06-14 12:48:26,997 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 12:48:27,003 [INFO] resume_screening - matcher.py:43 - Analyzing match fit for candidate 'Alice Smith'...
+2026-06-14 12:48:27,027 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 12:48:27,031 [INFO] resume_screening - parser.py:120 - Sending resume text to Gemini for structured schema parsing...
+2026-06-14 12:48:27,047 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 12:48:27,064 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 12:48:27,067 [INFO] resume_screening - rag_engine.py:51 - Generating FAISS vector store database from 1 chunks...
+2026-06-14 12:48:27,067 [INFO] resume_screening - rag_engine.py:53 - FAISS vector store successfully created.
