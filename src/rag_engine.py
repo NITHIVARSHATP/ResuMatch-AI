@@ -45,9 +45,10 @@ def build_vector_store(candidates: List[Dict[str, Any]], api_key: Optional[str] 
 
     try:
         embeddings = GoogleGenerativeAIEmbeddings(
-            model="models/text-embedding-004",
+            model="models/gemini-embedding-001",
             google_api_key=key
         )
+
         logger.info(f"Generating FAISS vector store database from {len(docs)} chunks...")
         vector_store = FAISS.from_documents(docs, embeddings)
         logger.info("FAISS vector store successfully created.")

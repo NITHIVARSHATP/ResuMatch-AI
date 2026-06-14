@@ -133,3 +133,80 @@
 2026-06-14 13:31:06,141 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
 2026-06-14 13:31:10,658 [ERROR] resume_screening - app.py:73 - API key validation failed: Error calling model 'gemini-2.5-flash' (UNAUTHENTICATED): 401 UNAUTHENTICATED. {'error': {'code': 401, 'message': 'Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.', 'status': 'UNAUTHENTICATED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'ACCESS_TOKEN_TYPE_UNSUPPORTED', 'metadata': {'service': 'generativelanguage.googleapis.com', 'method': 'google.ai.generativelanguage.v1beta.GenerativeService.GenerateContent'}}]}}
 2026-06-14 13:31:10,669 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 13:41:57,390 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 13:41:57,394 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 13:42:00,236 [ERROR] resume_screening - app.py:73 - API key validation failed: Error calling model 'gemini-2.5-flash' (UNAUTHENTICATED): 401 UNAUTHENTICATED. {'error': {'code': 401, 'message': 'Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.', 'status': 'UNAUTHENTICATED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'ACCESS_TOKEN_TYPE_UNSUPPORTED', 'metadata': {'service': 'generativelanguage.googleapis.com', 'method': 'google.ai.generativelanguage.v1beta.GenerativeService.GenerateContent'}}]}}
+2026-06-14 13:42:00,245 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 13:43:52,811 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 13:43:53,037 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 13:43:53,038 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 13:43:53,044 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 13:43:57,764 [ERROR] resume_screening - app.py:74 - API key validation failed: Error calling model 'gemini-2.5-flash' (UNAUTHENTICATED): 401 UNAUTHENTICATED. {'error': {'code': 401, 'message': 'Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.', 'status': 'UNAUTHENTICATED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'ACCESS_TOKEN_TYPE_UNSUPPORTED', 'metadata': {'service': 'generativelanguage.googleapis.com', 'method': 'google.ai.generativelanguage.v1beta.GenerativeService.GenerateContent'}}]}}
+2026-06-14 13:43:57,834 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 13:43:58,159 [ERROR] resume_screening - app.py:74 - API key validation failed: Error calling model 'gemini-2.5-flash' (UNAUTHENTICATED): 401 UNAUTHENTICATED. {'error': {'code': 401, 'message': 'Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.', 'status': 'UNAUTHENTICATED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'ACCESS_TOKEN_TYPE_UNSUPPORTED', 'metadata': {'service': 'generativelanguage.googleapis.com', 'method': 'google.ai.generativelanguage.v1beta.GenerativeService.GenerateContent'}}]}}
+2026-06-14 13:43:58,169 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:09:48,690 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:09:48,693 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:09:54,418 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:10:22,345 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:10:22,351 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:10:22,372 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:10:28,019 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:10:28,023 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:10:28,040 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:10:33,674 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:10:33,680 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:10:33,705 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:10:35,280 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:10:35,285 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:10:35,300 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:10:35,343 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:10:38,278 [INFO] resume_screening - parser.py:120 - Sending resume text to Gemini for structured schema parsing...
+2026-06-14 14:10:44,411 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:10:44,416 [INFO] resume_screening - database.py:48 - Saved raw resume file: data\resumes\NITHIVARSHA_TP.pdf
+2026-06-14 14:10:44,432 [INFO] resume_screening - database.py:64 - Candidate 'NITHIVARSHA T P' (NITHIVARSHA_TP.pdf) successfully saved to database.
+2026-06-14 14:10:44,439 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:10:47,136 [INFO] resume_screening - rag_engine.py:51 - Generating FAISS vector store database from 3 chunks...
+2026-06-14 14:10:47,530 [ERROR] resume_screening - rag_engine.py:56 - Error creating FAISS vector store: Error embedding content (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-06-14 14:10:47,530 [ERROR] resume_screening - app.py:297 - Screening execution error: Error embedding content (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-06-14 14:12:43,939 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:12:43,941 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:12:48,031 [INFO] resume_screening - rag_engine.py:52 - Generating FAISS vector store database from 3 chunks...
+2026-06-14 14:12:48,391 [ERROR] resume_screening - rag_engine.py:57 - Error creating FAISS vector store: Error embedding content (UNAUTHENTICATED): 401 UNAUTHENTICATED. {'error': {'code': 401, 'message': 'Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.', 'status': 'UNAUTHENTICATED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'ACCESS_TOKEN_TYPE_UNSUPPORTED', 'metadata': {'method': 'google.ai.generativelanguage.v1beta.GenerativeService.BatchEmbedContents', 'service': 'generativelanguage.googleapis.com'}}]}}
+2026-06-14 14:12:48,391 [ERROR] resume_screening - app.py:85 - Startup vector store creation failed: Error embedding content (UNAUTHENTICATED): 401 UNAUTHENTICATED. {'error': {'code': 401, 'message': 'Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.', 'status': 'UNAUTHENTICATED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'ACCESS_TOKEN_TYPE_UNSUPPORTED', 'metadata': {'method': 'google.ai.generativelanguage.v1beta.GenerativeService.BatchEmbedContents', 'service': 'generativelanguage.googleapis.com'}}]}}
+2026-06-14 14:12:48,413 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:13:11,577 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:13:11,581 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:13:16,344 [INFO] resume_screening - rag_engine.py:52 - Generating FAISS vector store database from 3 chunks...
+2026-06-14 14:13:18,185 [INFO] resume_screening - rag_engine.py:54 - FAISS vector store successfully created.
+2026-06-14 14:13:24,063 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:13:41,829 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:13:41,842 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:14:30,835 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:14:30,843 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:14:41,984 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:14:41,997 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:14:42,014 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:14:43,515 [INFO] resume_screening - rag_engine.py:52 - Generating FAISS vector store database from 3 chunks...
+2026-06-14 14:14:44,520 [INFO] resume_screening - rag_engine.py:54 - FAISS vector store successfully created.
+2026-06-14 14:14:45,957 [INFO] resume_screening - matcher.py:43 - Analyzing match fit for candidate 'NITHIVARSHA T P'...
+2026-06-14 14:14:54,960 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:14:54,965 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:17:26,289 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:17:26,294 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:17:29,278 [INFO] resume_screening - rag_engine.py:52 - Generating FAISS vector store database from 3 chunks...
+2026-06-14 14:17:30,341 [INFO] resume_screening - rag_engine.py:54 - FAISS vector store successfully created.
+2026-06-14 14:17:35,595 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:17:43,473 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:17:43,482 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:18:00,810 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:18:00,834 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:18:01,134 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:18:01,156 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:18:01,189 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:18:01,192 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:18:03,880 [INFO] resume_screening - rag_engine.py:52 - Generating FAISS vector store database from 3 chunks...
+2026-06-14 14:18:04,957 [INFO] resume_screening - rag_engine.py:54 - FAISS vector store successfully created.
+2026-06-14 14:18:07,488 [INFO] resume_screening - matcher.py:43 - Analyzing match fit for candidate 'NITHIVARSHA T P'...
+2026-06-14 14:18:14,071 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.
+2026-06-14 14:18:14,078 [INFO] resume_screening - database.py:32 - SQLite Database and directories initialized successfully.

@@ -5,7 +5,8 @@ import plotly.express as px
 from dotenv import load_dotenv
 
 # Load environment variables
-load_dotenv()
+load_dotenv(override=True)
+
 
 # Set Streamlit Page Configuration
 st.set_page_config(
