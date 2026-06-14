@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.env.local
+.env.shared
+
+# Local data & database files
+data/
+temp/
+logs/
+
+# Testing
+test_data/
+
+# OS files
+.DS_Store
+Thumbs.db

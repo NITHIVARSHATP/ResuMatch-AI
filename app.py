@@ -104,8 +104,9 @@ if api_key_input != st.session_state["api_key"]:
 if st.session_state["api_key"]:
     # Validate the key cached in state
     if "api_key_status" not in st.session_state or st.session_state.get("last_checked_key") != st.session_state["api_key"]:
-        with st.sidebar.spinner("Validating API Key..."):
+        with st.spinner("Validating API Key..."):
             valid = is_api_key_valid(st.session_state["api_key"])
+
             st.session_state["api_key_status"] = valid
             st.session_state["last_checked_key"] = st.session_state["api_key"]
             
